@@ -1,0 +1,139 @@
+/* Adicionando um estilo moderno ao formulário e ao botão */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 450px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 26px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+label {
+  font-size: 18px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  transition: all 0.3s;
+}
+
+input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.4);
+}
+
+button {
+  padding: 12px 20px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#result {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+#short_url {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#short_url:hover {
+  text-decoration: underline;
+}
+
+#feedback {
+  margin-top: 10px;
+  font-size: 16px;
+  padding: 10px;Ajustar o Design:
+
+  Se precisar de mais ajustes, como bordas arredondadas ou alterações nas cores, você pode personalizar ainda mais com CSS.
+  border-radius: 5px;
+}
+
+#feedback.success {
+  background-color: #d4edda;
+}
+
+#feedback.error {
+  background-color: #f8d7da;
+}
+
+
+/* Estilo para a div 'result' que contém o botão */
+#result {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centraliza verticalmente */
+  align-items: center;     /* Centraliza horizontalmente */
+  margin-top: 20px;
+}
+
+/* Estilo do botão 'Copiar Link' */
+#copyButton {
+  padding: 12px 20px;
+  background-color: #28a745;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Centraliza o conteúdo dentro do botão */
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  width: 300; /* Ajusta a largura automaticamente */
+}
+
+/* Estilo do ícone dentro do botão */
+#copyButton i {
+  margin-right: 8px; /* Espaçamento entre ícone e texto */
+}
+
+#copyButton:hover {
+  background-color: #218838;
+}
+
+#copyButton:active {
+  transform: scale(0.95); /* Efeito de clique */
+}
+
+#copyButton:focus {
+  outline: none; /* Remove o contorno ao focar no botão */
+}
