@@ -47,7 +47,7 @@ Certifique-se de ter os seguintes itens instalados no seu ambiente:
    rails db:migrate
    ```
 4. Execute o servidor Rails localmente:
-  ```
+   ```
    rails server
    ```
 5. Acesse a aplicação em: http://localhost:3000
@@ -56,10 +56,10 @@ Certifique-se de ter os seguintes itens instalados no seu ambiente:
 
 ## Como Usar
 
-    Acesse a página inicial do Encurtador de Links.
-    Insira o link que deseja encurtar no campo apropriado.
-    Clique no botão Encurtar para gerar o link curto.
-    Copie o link encurtado clicando no botão Copiar Link.
+   - Acesse a página inicial do Encurtador de Links.
+   - Insira o link que deseja encurtar no campo apropriado.
+   - Clique no botão Encurtar para gerar o link curto.
+   - Copie o link encurtado clicando no botão Copiar Link.
     
 
 
