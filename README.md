@@ -52,6 +52,12 @@ Certifique-se de ter os seguintes itens instalados no seu ambiente:
    ```
 5. Acesse a aplicação em: http://localhost:3000
 
+## Vídeo de Demonstração
+
+
+
+https://github.com/user-attachments/assets/7c4ae55a-6320-4adc-88c6-11a99a599f0b
+
 
 
 ## Como Usar
