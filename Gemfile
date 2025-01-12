@@ -16,7 +16,7 @@ group :development, :test do
   gem "debug", platforms: %i[ mri windows ], require: "debug/prelude"
   
   # RSpec for testing
-  gem "rspec-rails", "~> 5.1.2"
+  gem "rspec-rails", "~> 7.1.0"
   
   # Factory Bot for fixtures
   gem "factory_bot_rails", "~> 6.2"
