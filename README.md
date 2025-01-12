@@ -1,118 +1,113 @@
 # Encurtador de Links
 
-Este projeto é um **Encurtador de Links** desenvolvido com **Ruby on Rails** e utilizando **PostgreSQL** como banco de dados. O objetivo da aplicação é permitir aos usuários encurtar links longos para versões curtas e mais fáceis de compartilhar.
+**Encurtador de Links** é uma aplicação desenvolvida em **Ruby on Rails** com **PostgreSQL**. O objetivo é permitir que os usuários encurtem links longos, facilitando o compartilhamento de URLs de maneira rápida e simples.
+
+---
 
 ## Funcionalidades
-
 - Encurtamento de links.
 - Geração de um link curto para cada URL fornecida.
 - Capacidade de copiar o link encurtado para a área de transferência.
 - Exibição do link original e do link encurtado.
 
-## Tecnologias Usadas
+---
 
-- **Ruby on Rails**: Framework para desenvolvimento da aplicação.
-- **PostgreSQL**: Banco de dados utilizado para armazenamento das URLs.
+## Tecnologias Utilizadas
+- **Ruby on Rails**: Framework utilizado para desenvolvimento da aplicação.
+- **PostgreSQL**: Banco de dados utilizado para armazenar as URLs.
 - **Bootswatch**: Tema utilizado para a estilização da interface.
-- **Docker**: Utilizado para a criação de containers para a aplicação.
+- **HTML/CSS/JavaScript**: Interface interativa para o usuário.
 
-## Instalação
+---
 
-### Pré-requisitos
+## Requisitos
+Certifique-se de ter os seguintes itens instalados no seu ambiente:
+- Ruby 3.3.4 ou superior
+- Rails 7.x
+- PostgreSQL
+- Docker (opcional, para rodar o projeto em container)
 
-- **Ruby** (3.3.4)
-- **Rails** (7.x)
-- **PostgreSQL** (Para produção)
-- **Docker** (Opcional, para usar containers)
+---
 
-### Passo a Passo para Instalação
+## Instalação e Execução
 
 1. Clone o repositório:
+   ```
+   git clone https://github.com/seu-usuario/encurtador-de-links.git
+   cd encurtador-de-links
+   ```
 
-   ```bash
-   git clone https://github.com/seu_usuario/seu_repositorio.git
-   cd seu_repositorio
+2. Instale as dependências do Ruby on Rails
 
-Claro! Aqui está o README.md atualizado sem a seção de Deploy:
-
-# Encurtador de Links
-
-Este projeto é um **Encurtador de Links** desenvolvido com **Ruby on Rails** e utilizando **PostgreSQL** como banco de dados. O objetivo da aplicação é permitir aos usuários encurtar links longos para versões curtas e mais fáceis de compartilhar.
-
-## Funcionalidades
-
-- Encurtamento de links.
-- Geração de um link curto para cada URL fornecida.
-- Capacidade de copiar o link encurtado para a área de transferência.
-- Exibição do link original e do link encurtado.
-
-## Tecnologias Usadas
-
-- **Ruby on Rails**: Framework para desenvolvimento da aplicação.
-- **PostgreSQL**: Banco de dados utilizado para armazenamento das URLs.
-- **Bootswatch**: Tema utilizado para a estilização da interface.
-- **Docker**: Utilizado para a criação de containers para a aplicação.
-
-## Instalação
-
-### Pré-requisitos
-
-- **Ruby** (3.3.4)
-- **Rails** (7.x)
-- **PostgreSQL** (Para produção)
-- **Docker** (Opcional, para usar containers)
-
-### Passo a Passo para Instalação
-
-1. Clone o repositório:
-   
- ```
-     git clone https://github.com/seu_usuario/seu_repositorio.git
-     cd seu_repositorio
-```
-
-2. Configure o banco de dados:
-Se você estiver usando PostgreSQL, edite o arquivo .env com as variáveis de ambiente necessárias e configure as credenciais no arquivo config/database.yml.
- 
-```
-    rails db:create
-    rails db:migrate
-```
-
-3.Execute a aplicação:
-
-```
+   ```
+   bundle install
+   ```
+3. Configure o banco de dados: Certifique-se de configurar as variáveis de ambiente para o PostgreSQL no seu arquivo .env, e em seguida, crie e migre o banco de dados:
+   ```
+   rails db:create
+   rails db:migrate
+   ```
+4. Execute o servidor Rails localmente:
+  ```
    rails server
-```
-A aplicação estará disponível em http://localhost:3000.
+   ```
+5. Acesse a aplicação em: http://localhost:3000
+
+---
+
+## Como Usar
+
+    Acesse a página inicial do Encurtador de Links.
+    Insira o link que deseja encurtar no campo apropriado.
+    Clique no botão Encurtar para gerar o link curto.
+    Copie o link encurtado clicando no botão Copiar Link.
+    
+---
+
+## Estrutura do Projeto
+
+   - app/: Contém a lógica da aplicação Rails.
+   - config/: Configurações do banco de dados e do Rails.
+   - public/: Arquivos estáticos, como o HTML da interface.
+   - Gemfile: Arquivo de dependências Ruby.
+   - Gemfile.lock: Arquivo que trava as versões das gems.
+   - .env: Arquivo de variáveis de ambiente para configuração do banco de dados.
+
+---
+
+## Contribuições
+
+Contribuições são bem-vindas! Para colaborar:
+
+  -  Faça um fork do projeto.
+  -  Crie uma branch para sua feature ou correção:
+
+git checkout -b minha-feature
+
+Envie suas modificações:
+
+  -  git commit -m "Minha nova feature"
+  -  git push origin minha-feature
+
+  -  Abra um Pull Request.
+
+---
+
+## Licença
+
+Este projeto está licenciado sob a MIT License.
+Autor
+
+Angelo Souza
+LinkedIn
+GitHub
 
 
-Como Usar
+   
 
-   - Acesse a página inicial do Encurtador de Links.
-   - Insira o link que deseja encurtar na caixa de entrada.
-   - Clique no botão Encurtar para gerar o link curto.
-   - Copie o link encurtado clicando no botão Copiar Link.
-
-Contribuindo
-
-   - Fork este repositório.
-   - Crie uma nova branch (git checkout -b feature-xyz).
-   - Faça suas alterações e faça commit delas (git commit -am 'Add new feature').
-   - Faça o push para a branch (git push origin feature-xyz).
-   - Crie um pull request para a branch principal do repositório original.
-
-Licença
-
-Este projeto é licenciado sob a MIT License.
-
-Contato
-Para mais informações ou para relatar problemas, entre em contato pelo angeloafdesouza@gmail.com
+   
 
 
+   
 
-
-
-
-
-
+   
