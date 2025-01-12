@@ -2,7 +2,6 @@
 
 **Encurtador de Links** é uma aplicação desenvolvida em **Ruby on Rails** com **PostgreSQL**. O objetivo é permitir que os usuários encurtem links longos, facilitando o compartilhamento de URLs de maneira rápida e simples.
 
----
 
 ## Funcionalidades
 - Encurtamento de links.
@@ -10,7 +9,7 @@
 - Capacidade de copiar o link encurtado para a área de transferência.
 - Exibição do link original e do link encurtado.
 
----
+
 
 ## Tecnologias Utilizadas
 - **Ruby on Rails**: Framework utilizado para desenvolvimento da aplicação.
@@ -18,7 +17,7 @@
 - **Bootswatch**: Tema utilizado para a estilização da interface.
 - **HTML/CSS/JavaScript**: Interface interativa para o usuário.
 
----
+
 
 ## Requisitos
 Certifique-se de ter os seguintes itens instalados no seu ambiente:
@@ -27,7 +26,7 @@ Certifique-se de ter os seguintes itens instalados no seu ambiente:
 - PostgreSQL
 - Docker (opcional, para rodar o projeto em container)
 
----
+
 
 ## Instalação e Execução
 
@@ -53,7 +52,7 @@ Certifique-se de ter os seguintes itens instalados no seu ambiente:
    ```
 5. Acesse a aplicação em: http://localhost:3000
 
----
+
 
 ## Como Usar
 
@@ -62,7 +61,7 @@ Certifique-se de ter os seguintes itens instalados no seu ambiente:
     Clique no botão Encurtar para gerar o link curto.
     Copie o link encurtado clicando no botão Copiar Link.
     
----
+
 
 ## Estrutura do Projeto
 
@@ -73,7 +72,7 @@ Certifique-se de ter os seguintes itens instalados no seu ambiente:
    - Gemfile.lock: Arquivo que trava as versões das gems.
    - .env: Arquivo de variáveis de ambiente para configuração do banco de dados.
 
----
+
 
 ## Contribuições
 
@@ -91,7 +90,7 @@ Envie suas modificações:
 
   -  Abra um Pull Request.
 
----
+
 
 ## Licença
 
